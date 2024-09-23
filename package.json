@@ -1,38 +1,43 @@
 {
   "name": "xsans",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.4.7",
+  "description": "React components with CLI for easy installation",
+  "main": "index.js",
+  "bin": {
+    "xsans": "./cli/index.js"
+  },
+  "files": [
+    "cli/",
+    "packages/",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "ajv": "^8.17.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "commander": "^9.0.0",
+    "fs-extra": "^10.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "prop-types": "^15.8.0"
   },
+  "keywords": ["react", "cli", "components", "tailwind"],
+  "author": "Ravi Kant",
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
   }
 }

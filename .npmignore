@@ -1,0 +1,11 @@
+# Exclude everything by default
+*
+
+# Allow cli and packages folders to be published
+!cli/
+!packages/
+
+# Allow package.json, README.md, and LICENSE if needed
+!package.json
+!README.md
+!LICENSE

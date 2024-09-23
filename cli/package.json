@@ -1,0 +1,11 @@
+{
+  "name": "xsans",
+  "version": "1.4.7",
+  "bin": {
+    "xsans": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "fs-extra": "^10.0.0"
+  }
+}
